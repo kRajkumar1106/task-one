@@ -1,0 +1,51 @@
+Title: Exploring Objects and Their Internal Representation in JavaScript
+
+
+<!-- Creating Objects: -->
+
+There are multiple ways to create objects in JavaScript. The most common approach is by using object literals, denoted by curly braces:
+
+
+const person = {
+  name: 'rajkumar',
+  age: 25,
+  occupation: 'Full stack web Developer'
+};
+
+
+In the example above, we create an object called `person` with three properties: `name`, `age`, and `occupation`. Each property is assigned a value using the colon (`:`) notation.
+
+
+Accessing and Manipulating Object Properties:
+To access properties of an object, we can use dot notation or square brackets. For example:
+
+
+console.log(person.name); // Output: 'kumar'
+console.log(person['age']); // Output: 25
+
+
+
+We can also modify existing properties or add new ones dynamically:
+
+person.age = 25;
+person.gender = 'Male';
+
+
+<!-- Object Methods: -->
+
+Objects in JavaScript can also have methods, which are functions stored as properties. These methods allow us to define behaviors or actions that an object can perform. Here's an example:
+
+
+const car = {
+  brand: 'nexa',
+  model: 'Model x',
+  start: function() {
+    console.log('The car is starting.');
+  },
+  stop: function() {
+    console.log('The car is stopping.');
+  }
+};
+
+car.start(); // Output: 'The car is starting.'
+car.stop(); // Output: 'The car is stopping.'

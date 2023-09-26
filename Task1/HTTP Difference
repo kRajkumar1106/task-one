@@ -1,0 +1,28 @@
+The HyperText Transfer Protocol (HTTP)
+
+<!--
+HTTP 1.1: The Old Workhorse -->
+
+HTTP 1.1 was introduced in 1999 and has served as the backbone of web communication for over two decades. Despite its effectiveness, HTTP 1.1 had certain limitations that hindered the performance and efficiency of modern web applications.
+
+1. Multiplexing.
+
+
+2. Header Compression.
+
+
+3. Server Push.
+  
+
+<!-- HTTP/2: The New Era of Web Communication -->
+
+Recognizing the limitations of HTTP 1.1, the Internet Engineering Task Force (IETF) developed HTTP/2 as a successor. Introduced in 2015, HTTP/2 aimed to address the shortcomings of its predecessor and provide a more efficient and optimized protocol for modern web applications.
+
+1. Multiplexing and Concurrency.
+
+
+2. Header Compression.
+
+
+3. Server Push.
+
